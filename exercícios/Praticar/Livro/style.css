@@ -1,0 +1,25 @@
+@charset "UTF-8"
+body{
+    
+}
+body{
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+    line-height: 1.6;
+    margin: 0 auto;
+    width: 900px;
+}
+h2{
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h2{
+    border-bottom: 1px dashed #7e9f19;
+}
+body{
+    background: #FFF1D6 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
