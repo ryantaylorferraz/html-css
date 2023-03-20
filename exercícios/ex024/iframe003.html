@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            border: 2px solid black;
+            height: 300px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            background-color: black;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1> Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio illo temporibus cum deleniti non, eius modi vero saepe repellendus, voluptas, numquam dignissimos dolore est minima eveniet veniam pariatur ipsum!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quidem dignissimos, unde et voluptates ullam obcaecati ab! Vitae quam laudantium maxime sapiente quo omnis. Veniam vel earum non deserunt quos?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima </h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis nihil autem ducimus dicta excepturi, consectetur pariatur delectus hic natus eligendi quod laborum libero! Atque, repellat soluta sint veniam commodi at!</p>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi voluptas aliquid laborum corrupti dolorem dolores provident iusto fugit aliquam nulla numquam tempora doloribus qui cupiditate at distinctio, explicabo assumenda quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cum sint porro ut aperiam est, quis laboriosam! Repellendus dolor dolorum dolorem odit aperiam iste itaque quae soluta pariatur, aliquid voluptatem.</p>
+
+</body>
+</html>
