@@ -1,1 +1,0 @@
-voce precisa estudar php zé.
