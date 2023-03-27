@@ -1,1 +1,0 @@
-Eu te amo! Você é super inteligente, vai conseguir passar por todas as dificuldades e tudo vai valer a pena!
