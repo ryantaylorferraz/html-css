@@ -12,7 +12,7 @@ body, html {
 }
 
 header {
-    background-color: #383838;
+    background-color: #868686;
 }
 
 header > h1 {
@@ -49,9 +49,9 @@ menu > ul >li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color:5E5E5E;
+    background-color: #252525;
     color: #fff;
-    border-top: 2px solid #9E9E9E;
+    
     
 }
 
